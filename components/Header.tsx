@@ -39,7 +39,7 @@ export default function Header() {
                     "fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-out",
                     scrolled
                         ? "bg-[rgba(255,255,255,0.72)] dark:bg-[rgba(29,29,31,0.72)] backdrop-blur-[20px] backdrop-saturate-[180%] border-b border-black/[0.08] dark:border-white/[0.08] shadow-[0_1px_0_0_rgba(0,0,0,0.05)]"
-                        : "bg-transparent"
+                        : "bg-transparent border-b border-transparent shadow-none"
                 )}
             >
                 <nav className="mx-auto max-w-[980px] px-6">
