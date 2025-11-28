@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 /* Apple-inspired Design System */
 :root {
     /* Light Mode Colors */
